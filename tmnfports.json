@@ -1,0 +1,23 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": 2350,
+        "Name": "Server Port",
+        "Description": "Spiel (wie auf der Website unter Gameserver → Trackmania)",
+        "Ref": "ServerPort"
+    },
+    {
+        "Protocol": "Both",
+        "Port": 3450,
+        "Name": "P2P Port",
+        "Description": "Strecken und Skins zwischen Spielern",
+        "Ref": "P2PPort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 5000,
+        "Name": "XML-RPC Port",
+        "Description": "Fernsteuerung: nur für die Website freigeben",
+        "Ref": "XmlRpcPort"
+    }
+]
